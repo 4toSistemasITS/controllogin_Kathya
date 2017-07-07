@@ -1,0 +1,17 @@
+<center>
+	<h1>Lista de estudiantes y sus edades</h1>
+</center>
+
+<center>
+	<img src="img/estu.jpg">
+</center>
+
+<div ng-controller="lista2" style="background: lightgreen; width:100%">
+	<center>
+		<ul>
+  			<li ng-repeat="x in data">
+    			{{ x.nombre + ', ' + x.edad }}
+  			</li>
+		</ul>
+	</center>	
+</div>
